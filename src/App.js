@@ -108,7 +108,7 @@ function Header() {
       </div>
 
       <div className="header-image">
-        <img src="/salman.jpeg" alt="salman-pic" className="my-image" />
+        <img src="/salman.webP" alt="salman-pic" className="my-image" />
       </div>
     </section>
   );
@@ -133,7 +133,7 @@ function About() {
       <h3>About</h3>
       <div className="about-box">
         <div className="image-box">
-          <img src="/salman.jpeg" alt="salman-pic" className="my-image" />
+          <img src="/salman.webP" alt="salman-pic" className="my-image" />
         </div>
 
         <div className="about-text">
@@ -262,7 +262,7 @@ function Skills() {
         </div>
 
         <div className="skill-image">
-          <img src="/laptop.jpg" alt="person-working" className="skill-img" />
+          <img src="/laptop.webP" alt="person-working" className="skill-img" />
         </div>
       </div>
     </section>
@@ -274,7 +274,7 @@ function Projects() {
     {
       name: "React Quiz App",
       tech: ["HTML", "CSS", "React"],
-      image: "/images/react-quiz-app.jpeg",
+      image: "/images/react-quiz-app.webP",
       description:
         "A modern travel planning application built with React. Features destination discovery, trip itinerary management, travel list creation, and interactive maps for exploring travel destinations worldwide.",
       liveLink: "https://react-quiz-app0012.netlify.app/",
@@ -284,7 +284,7 @@ function Projects() {
     {
       name: "Travel List",
       tech: ["HTML", "CSS", "React"],
-      image: "/images/Travel-list.jpeg",
+      image: "/images/Travel-list.webP",
       description:
         "A modern travel planning application built with React. Features destination discovery, trip itinerary management, travel list creation, and interactive maps for exploring travel destinations worldwide.",
       liveLink: "https://travel-list-001.netlify.app/",
@@ -294,7 +294,7 @@ function Projects() {
     {
       name: "Pig Game",
       tech: ["HTML", "CSS", "JavaScript"],
-      image: "/images/pig-game.jpeg",
+      image: "/images/pig-game.webP",
       description:
         "A fun two-player dice game built with JavaScript. Features turn switching, score tracking, and simple DOM manipulation for an interactive experience.",
       liveLink: "https://pig-game-app001.netlify.app/",
@@ -304,7 +304,7 @@ function Projects() {
     {
       name: "Array Bankist",
       tech: ["HTML", "CSS", "JavaScript"],
-      image: "/images/Array-bankist.png",
+      image: "/images/Array-bankist.webP",
       description:
         "A sophisticated banking application focusing on array methods and data manipulation. Features account management, transaction history, loan requests, and real-time balance calculations.",
       liveLink: "https://arrays-bankist-app.netlify.app/",
@@ -314,7 +314,7 @@ function Projects() {
     {
       name: "Expense Tracker",
       tech: ["HTML", "CSS", "React"],
-      image: "/images/react-expense-tracker.jpeg",
+      image: "/images/react-expense-tracker.webP",
       description:
         "A comprehensive expense tracking application built with React. Features include expense categorization, budget monitoring, data visualization with charts, and local storage persistence for financial data.",
       liveLink: "https://expense-tracker-react-01.netlify.app/",
@@ -323,7 +323,7 @@ function Projects() {
     {
       name: "Advanced-DOM-Bankist",
       tech: ["HTML", "CSS", "JavaScript"],
-      image: "/images/dom-bankist.jpg",
+      image: "/images/dom-bankist.webP",
       description:
         "An advanced banking website showcasing complex DOM manipulation techniques. Includes smooth scrolling, lazy loading, tabbed components, and sophisticated event handling patterns.",
       liveLink: "https://advanced-dom-bankist-app.netlify.app/",

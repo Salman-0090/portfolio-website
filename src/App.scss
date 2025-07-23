@@ -233,6 +233,8 @@ $primary-color-3: #e0dcdc;
 }
 
 /////////////////Header/////////////////////////////////////
+// / ///////////////////////////////////////////////////////
+
 .header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -246,6 +248,7 @@ $primary-color-3: #e0dcdc;
   .header {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     row-gap: 8rem;
+    height: auto;
   }
 }
 
@@ -266,6 +269,7 @@ $primary-color-3: #e0dcdc;
 }
 
 .my-image {
+  max-width: 100%;
   padding: 1rem;
   border-radius: 20px;
   background-color: #f7f7f7;
@@ -386,8 +390,8 @@ $primary-color-3: #e0dcdc;
 
 .about {
   padding-top: 6rem;
-  padding-right: 8rem;
-  padding-left: 8rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
   background-color: $primary-color-2;
 }
 
@@ -408,7 +412,7 @@ h3 {
 @media only screen and (max-width: $breakpoint-420) {
   .about-box {
     grid-template-columns: 1fr;
-    padding: 0 0.8rem;
+    justify-content: center;
   }
 }
 
@@ -462,7 +466,7 @@ h3 {
   gap: 6rem;
 }
 
-@media only screen and (max-width: 335px) {
+@media only screen and (max-width: 360px) {
   .skill-box {
     grid-template-columns: 1fr;
     gap: 0.5rem;
