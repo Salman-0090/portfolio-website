@@ -9,8 +9,8 @@ function App() {
       <Header />
       <Highlight />
       <About />
-      <Skills />
       <Projects />
+      <Skills />
       <Contact />
     </div>
   );
@@ -137,64 +137,24 @@ function About() {
         </div>
 
         <div className="about-text">
-          <p>
-            Hello! I’m <em>Salman Khan</em>, a passionate front-end developer
-            with skills in{" "}
-            <strong>HTML, CSS, JavaScript, Sass, and React</strong>. I enjoy
-            building engaging and functional web interfaces that provide great
-            user experiences.
-          </p>
-
-          <p className="para-2">
-            I have worked on several projects to sharpen my skills:
-          </p>
-
-          <ul className="about-list">
-            <li>
-              <a
-                href="https://github.com/Salman-0090/forkify-app"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Forkify App
-              </a>
-              : A recipe search web application built with vanilla JavaScript.
-              It allows users to search recipes, view details, bookmark
-              favorites, and upload their own. It uses the Forkify API and
-              follows the MVC architecture.
-            </li>
-
-            <li>
-              <a
-                href="https://github.com/Salman-0090/usePopcorn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                usePopcorn
-              </a>
-              : A movie search and watchlist app built with React. It fetches
-              real-time movie data, allows users to add ratings, and stores
-              their watchlist locally using localStorage.
-            </li>
-            <li>
-              <a
-                href="https://github.com/Salman-0090/expense-tracker-v2"
-                target="_blank"
-                rel="noreferrer"
-              >
-                React Expense Tracker
-              </a>
-              : A modern expense tracking app built with React. It supports dark
-              and light modes, persists data using localStorage, and allows
-              users to manage their daily spending with ease.
-            </li>
-          </ul>
-
-          <p className="about-para">
-            I’m excited to continue learning and exploring new technologies to
-            create innovative and efficient solutions. Let’s build something
-            amazing together!
-          </p>
+          <div>
+            Hello! I'm <strong>Salman Khan</strong>, a
+            <strong> front-end developer</strong> who specializes in building
+            responsive, user-friendly web applications with React and modern
+            JavaScript. I enjoy transforming complex design challenges into
+            clean, maintainable code that delivers great user experiences.
+          </div>
+          <div>
+            I'm currently deepening my expertise with Next.js to build faster,
+            more SEO-friendly applications while continuing to expand my skills
+            in the React ecosystem.
+          </div>
+          <div>
+            I'm seeking a front-end developer role where I can contribute to
+            meaningful products, collaborate with a passionate team, and
+            continue growing as a developer. Let's build something amazing
+            together!
+          </div>
         </div>
       </div>
     </section>
@@ -272,11 +232,30 @@ function Skills() {
 function Projects() {
   const projectData = [
     {
+      name: "The Wild Oasis | Cabin Booking App",
+      tech: ["React.js", "Next.js 14", "Tailwind CSS", "Supabase"],
+      image: "/images/wildoasis.webP",
+      description:
+        "A full-stack hotel management application built with Next.js 14. This comprehensive system handles cabin bookings, guest management, and administrative operations with a modern, responsive interface.",
+      liveLink: "https://wild-oasis-nextjs-app-uzro.vercel.app/",
+      codeLink: "https://github.com/Salman-0090/Wild-oasis-Nextjs-app",
+    },
+    {
+      name: "Expense Tracker",
+      tech: ["HTML", "CSS", "React"],
+      image: "/images/react-expense-tracker.webP",
+      description:
+        "A comprehensive expense tracking application built with React. Features include expense categorization, budget monitoring, data visualization with charts, and local storage persistence for financial data.",
+      liveLink: "https://expense-tracker-react-01.netlify.app/",
+      codeLink: "https://github.com/Salman-0090/expense-tracker-v2",
+    },
+    {
       name: "React Quiz App",
       tech: ["HTML", "CSS", "React"],
       image: "/images/react-quiz-app.webP",
       description:
         "A modern travel planning application built with React. Features destination discovery, trip itinerary management, travel list creation, and interactive maps for exploring travel destinations worldwide.",
+
       liveLink: "https://react-quiz-app0012.netlify.app/",
       codeLink: "https://github.com/Salman-0090/React-Quiz-App",
     },
@@ -309,25 +288,6 @@ function Projects() {
         "A sophisticated banking application focusing on array methods and data manipulation. Features account management, transaction history, loan requests, and real-time balance calculations.",
       liveLink: "https://arrays-bankist-app.netlify.app/",
       codeLink: "https://github.com/Salman-0090/Arrays-Bankist",
-    },
-
-    {
-      name: "Expense Tracker",
-      tech: ["HTML", "CSS", "React"],
-      image: "/images/react-expense-tracker.webP",
-      description:
-        "A comprehensive expense tracking application built with React. Features include expense categorization, budget monitoring, data visualization with charts, and local storage persistence for financial data.",
-      liveLink: "https://expense-tracker-react-01.netlify.app/",
-      codeLink: "https://github.com/Salman-0090/expense-tracker-v2",
-    },
-    {
-      name: "Advanced-DOM-Bankist",
-      tech: ["HTML", "CSS", "JavaScript"],
-      image: "/images/dom-bankist.webP",
-      description:
-        "An advanced banking website showcasing complex DOM manipulation techniques. Includes smooth scrolling, lazy loading, tabbed components, and sophisticated event handling patterns.",
-      liveLink: "https://advanced-dom-bankist-app.netlify.app/",
-      codeLink: "https://github.com/Salman-0090/Advanced-DOM-Bankist",
     },
   ];
 
@@ -402,6 +362,13 @@ function Contact() {
           rel="noreferrer"
         >
           GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/salmann-khan/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Linkedin
         </a>
       </div>
     </section>

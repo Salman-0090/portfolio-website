@@ -425,6 +425,12 @@ h3 {
 .about-text {
   font-size: 1.6rem;
   line-height: 1.9;
+  padding-right: 40px;
+  text-align: justify;
+
+  & div {
+    padding-bottom: 2rem;
+  }
 }
 
 .para-2 {
@@ -546,7 +552,7 @@ h4 {
 //////////////////////Projects///////////////////
 
 .projects-section {
-  background-color: $primary-color-2;
+  background-color: $primary-color-3;
   margin: 0 auto;
 }
 
